@@ -28,3 +28,21 @@ Navigate to the backend directory (if applicable, or root if app.py is there):
 ```bash
 cd backend
 ```
+
+3. Create a .env file in the root directory:
+```bash
+OPENAI_API_KEY=your-openai-api-key-here
+```
+
+4. Replace your-openai-api-key-here with your actual OpenAI API key.
+
+
+5. Run the FastAPI server:
+```bash
+uvicorn app:app --host 0.0.0.0 --port 8000
+```
+
+6.Run the Vite development server:
+```bash
+npm run dev
+```
