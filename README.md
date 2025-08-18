@@ -1,12 +1,30 @@
-# React + Vite
+# React-Pdfupload-Rag
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application for uploading PDF files and asking questions about their content using Retrieval-Augmented Generation (RAG) powered by OpenAI's API. The frontend is built with React and Vite, featuring a clean card-based UI with Tailwind CSS. The backend uses FastAPI to process PDFs and integrate with OpenAI for question answering.
 
-Currently, two official plugins are available:
+## Features
+- Upload PDF files via a drag-and-drop or file selection interface.
+- Ask questions about the PDF content and receive AI-generated answers.
+- Clean, responsive UI with a shadowed card design.
+- Backend powered by FastAPI and OpenAI for RAG-based question answering.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Prerequisites
+- **Node.js** (v16 or higher) for the frontend.
+- **Python** (v3.8 or higher) for the backend.
+- **Git** for cloning the repository.
+- An **OpenAI API key** (obtain from [https://platform.openai.com](https://platform.openai.com)).
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the Repository
+```bash
+git clone https://github.com/KARSRV/React-Pdfupload-Rag.git
+cd React-Pdfupload-Rag
+```
+
+2. Backend Setup
+
+Navigate to the backend directory (if applicable, or root if app.py is there):
+```bash
+cd backend
+```
